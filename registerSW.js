@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/fet-student-hub/sw.js', { scope: '/fet-student-hub/' })})}
